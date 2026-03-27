@@ -15,6 +15,7 @@ class EncodingTest extends AnyFunSuite with Matchers with TableDrivenPropertyChe
     ("base64_file", Encoding.BASE64_FILE),
     ("UTF8", Encoding.UTF8),
     ("utf8", Encoding.UTF8),
+    ("utf-8", Encoding.UTF8),
     ("UTF-8", Encoding.UTF8),
     ("UTF-8_FILE", Encoding.UTF8_FILE),
     ("utf8_file", Encoding.UTF8_FILE),
